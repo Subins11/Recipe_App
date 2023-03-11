@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: olivedrab;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 0 40px;
+  top: 20px;
+  left: 50%;
+
+}
+.nav-menu{
+ display: grid;
+ grid-template-columns: repeat(6,auto);
+ grid-gap: 25px;
+ list-style: none;
+ align-items: center;
+ text-align: center;
+ justify-content: end;
+ padding-right: 50px;
+ color: black;
+}
+.add{
+  text-align: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.card{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.icon{
+  display: flex;
+  justify-content: left;  
+}
+.icons{
+  text-decoration: 3px solid blue underline;
+  font-weight: 700;
+}
+.time{
+  float: left;
+}
+.icon2{
+  margin-left: 30px;
+}
+.add{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 92.4vh;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background: linear-gradient(#ebd4d4, #e8e9f5);
+}
+.recipe{
+  width: 80%;
+  height: 480px;
+  border-radius: 10px;
+  
+}
+.recipe h2{
+  margin-left: 3%;
+}
